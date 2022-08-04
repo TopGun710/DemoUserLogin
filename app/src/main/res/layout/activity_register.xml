@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_of_ui"
+    tools:context=".RegistrationPage">
+
+    <LinearLayout
+        android:layout_width="302dp"
+        android:layout_height="359dp"
+        android:background="#FFEB3B"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.423"
+        tools:ignore="MissingConstraints">
+
+
+        <EditText
+            android:id="@+id/edit_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:shadowColor="#000000"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorHint="#0E0A0A"
+            android:textColorLink="#000000"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/edit_Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="#000000"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorHint="#100D0D"
+            android:textColorLink="#000000"
+            android:textSize="14dp"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/edit_Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textShortMessage|textPassword"
+            android:textColor="#000000"
+            android:textColorHighlight="#050202"
+            android:textColorHint="#131010"
+            android:textColorLink="#000000"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/Registration"
+            android:layout_width="251dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:backgroundTint="#FF5722"
+            android:text="Register"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/RegToLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:text="Redirect  to the login page"
+            android:textColor="@color/purple_500" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

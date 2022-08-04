@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QuickBase Launcher</string>
+    <string name="update_activity_name">Update User</string>
+    <string name="adduser_activity_name">User Details</string>
+    <string name="registration_activity_name">Register Page</string>
+    <string name="login_activity_name">Login Page</string>
+    <string name="listview_activity_name">List View</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Forgot Password</string>
+</resources>
